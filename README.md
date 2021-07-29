@@ -8,3 +8,5 @@ github.com/go-playground/validator/v10 <br />
 
 <br />
 reload automatic : nodemon --exec go run main.go --signal=SIGNTERM
+<br />
+https://github.com/gofiber/cli
