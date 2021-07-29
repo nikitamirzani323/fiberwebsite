@@ -1,0 +1,11 @@
+{{template "include/header" .}}
+
+<div class="container" style="margin-top: 70px;">
+    {{.base_url}}
+    <image src="{{.image_path}}images/doraemon.png" />
+    {{range $index, $elem := .record.Hobbies}}
+        {{$index}} - {{$elem}},
+    {{end}}
+</div>
+
+{{template "include/footer" .}}
